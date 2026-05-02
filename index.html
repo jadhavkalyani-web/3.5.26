@@ -64,7 +64,7 @@
       <div class="hero-avatar animate-fade-up">
         <div class="avatar-glow"></div>
         <div class="avatar-ring ring-glow">
-          <img src="avatar.jpeg" alt="Kalyani Jadhav" class="avatar-img animate-float" />
+          <img src="myimage.jpeg" alt="Kalyani Jadhav" class="avatar-img animate-float" />
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@
         </div>
 
         <div class="featured-image">
-          <img src="digital-dustbin.jpeg" alt="Digital Dustbin prototype" />
+          <img src="digital.jpeg" alt="Digital Dustbin prototype" />
           <div class="featured-image-overlay"></div>
           <div class="featured-image-label">
             <span>Working Prototype</span>
@@ -401,10 +401,13 @@
 </a>
 
          
-          <p class="contact-label">                                                     </p>
+        <p class="contact-label"></p>
+
 <div class="contact-form-container">
-  <form class="contact-form" action="#" method="POST">
-    
+  <form class="contact-form" id="contact-form">
+
+    <input type="hidden" name="accessKey" value="sf_5d559ee8c5d7df8785220c2f">
+
     <div class="form-group">
       <input type="text" name="name" placeholder="Your Name" required>
     </div>
@@ -420,6 +423,8 @@
     <button type="submit" class="btn btn-primary">
       Send Message
     </button>
+
+    <p id="form-status" style="margin-top:10px;"></p>
 
   </form>
 </div>
